@@ -7,7 +7,7 @@ import android.widget.Button
 import java.io.IOException
 import androidx.appcompat.app.AppCompatActivity
 
-class GrabarAudio {
+class GrabarAudio : AppCompatActivity() {
 
     var mediaRecorder: MediaRecorder? = null
     var outputFile: String? = null
